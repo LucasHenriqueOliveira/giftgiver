@@ -6,7 +6,6 @@ import App from './App';
 configure({adapter: new Adapter()});
 
 describe('App', () => {
-
     const app = shallow(<App />);
 
     it('renders correctly', () => {
